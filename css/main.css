@@ -73,7 +73,7 @@ header h2 span {
 #about h2 {
     font-family: 'Lora', serif;
     font-size: 35px;
-    padding-left: 50px;
+    padding-left: 0px;
 }
 #about p {
     font-size: 21px;
@@ -84,6 +84,11 @@ header h2 span {
 }
 
 /****** WORK ******/
+
+#container {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 
 #work {
     background-color: #f9ceb7;
@@ -98,7 +103,12 @@ header h2 span {
     padding-bottom: 30px;
 }
 
-#work h3 {
+#work h2 {
+    font-family: 'Lora', serif;
+    font-size: 35px;
+    padding-left: 0px;
+}
+    #work h3 {
     font-family: 'Lora', serif;
     font-size: 36px;
     padding-left: 50px;
@@ -125,6 +135,7 @@ header h2 span {
 }
 #contact h2, #contact #email-header, #contact ul {
     padding-left: 115px;
+    padding-bottom: 30px;
 }
 #contact #envelope {
     padding: 0 10px 0 115px;
