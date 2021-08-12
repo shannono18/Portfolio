@@ -19,5 +19,5 @@ Project is created with:
 * Bootstrap
 
 ## Sources
-Get Boostrap (https://getbootstrap.com/docs/4.0/components/navbar/)
+Get Bootstrap (https://getbootstrap.com/docs/4.0/components/navbar/)
 
